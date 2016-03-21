@@ -1,0 +1,397 @@
+/*TEMP STYLES DELETE*/
+
+#home-page-container #home-page-main-carousel img {
+    width: 145%;
+    left: -22.5%;
+    top: -50px;
+    position: absolute;
+}
+
+#home-page-container #stay-in-loop-right {
+    margin-top: 300px;
+}
+
+
+/* ALL PAGE SPECIFIC STYLES HERE */ 
+
+@font-face {
+    font-family: 'MINITypev2Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/minitypev2regular-regular-webfont.eot');
+    src: url('../fonts/minitypev2regular-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+        url('../fonts/minitypev2regular-regular-webfont.woff') format('woff'), 
+        url('../fonts/minitypev2regular-regular-webfont.ttf') format('truetype'), 
+        url('../fonts/minitypev2regular-regular-webfont.svg#MINITypev2RegularRegular') format('svg');
+}
+
+#home-page-container .clear-both {
+    clear: both;
+}
+
+#home-page-container .btn {
+    height: 35px;
+    padding-top: 7px;
+    font-family: MINITypev2HeadlineRegular !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+}
+
+#home-page-container .btn img {
+    width: 25px;
+}
+
+#home-page-container {
+    width: 100%;
+    position: relative;
+}
+
+#home-page-container h1 {
+	font-size : 45px;
+}
+
+#home-page-container h3 {
+    margin: 0;
+	font-size : 18px;
+}
+
+#home-page-container p {
+    font-family: MINITypev2Regular;
+}
+
+#home-page-container #stay-in-loop-container,
+#home-page-container #fun-world-of-mini {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#home-page-container #stay-in-loop-right {
+    margin-left: 3%;
+}
+
+#home-page-container #left-column-carousel,
+#home-page-container #stay-in-loop-right,
+#home-page-container .four-events {
+    position: relative;
+    width: 48.5%;
+    float: left;
+    border: 0;
+    padding: 0;
+}
+
+#home-page-container .beige {
+    color: #C5BAA2;
+}
+
+/*MINI DAG*/
+
+.border-box {
+    border: 10px solid #B41917;
+    padding: 20px;
+}
+
+#home-page-container #left-column-carousel {
+    margin-top: 300px;
+    position: relative;
+}
+
+#home-page-container #left-column-carousel h1 {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#home-page-container #left-column-carousel h2 {
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#home-page-container #left-column-carousel h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+    position: relative;
+    top: -10px;
+}
+
+#home-page-container #left-column-carousel h3:first-child {
+    margin-bottom: 10px;
+    top: 0;
+}
+
+#home-page-container #left-column-carousel p {
+    margin: 0;
+    font-size: 10px;
+    clear: both;
+}
+
+#home-page-container #dag-monthly-payment p,
+#home-page-container #dag-lease-rate p {
+    font-size: 12px;
+    font-weight: 900;
+}
+
+#home-page-container #dag-left-column {
+    width: 60%;
+    float: left
+}
+
+#home-page-container #dag-monthly-payment h1,
+#home-page-container #dag-lease-rate h1 {
+    font-size: 45px;
+    margin: 0;
+}
+#home-page-container #dag-monthly-payment {
+    border-right: 1px solid #555;
+    padding-right: 5%;
+    width: 45%;
+    float: left;
+}
+
+#home-page-container #dag-lease-rate {
+    width: 55%;
+    float: left;
+    padding-left: 5%;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+#home-page-container .small-text {
+    font-size: 20px;
+}
+
+#home-page-container #dag-right-column {
+    float: left;
+    width: 25%;
+    margin-left: 10%;
+}
+
+#home-page-container #dag-right-column .btn {
+    position: relative;
+    left: -15px;
+    width: 165px;
+    height: 35px;
+    margin-bottom: 7px;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+#home-page-container #build-and-price-red {
+    background-image: URL("../img/content/home-page/build-and-price-bg-red.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    border: 0;
+    padding: 5px;
+    padding-left: 15px;
+    text-shadow: 2px 2px 2px #000000;
+    text-align:left;
+    font-weight: 900;
+    width: 165px;
+}
+
+#home-page-container #left-column-carousel .clear-both {
+    margin-bottom: 120px;
+}
+
+#home-page-container .dag-image {
+    position: absolute;
+    bottom: -106px;
+    right: 0;
+}
+
+#home-page-container #dag-bg {
+    z-index: -1;
+}
+
+/*STAY IN THE LOOP*/
+
+#home-page-container #build-your-mini,
+#home-page-container #driving-fun {
+    width: 100%;
+    height: 224px;
+}
+
+#home-page-container #build-your-mini {
+    background-image: URL("../img/content/home-page/build-your-mini.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#home-page-container #driving-fun {
+    background-image: URL("../img/content/home-page/driving-fun.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#home-page-container .copy-wrap {
+    position: absolute;
+    right: 20px;
+    padding-top: 20px;
+    max-width: 170px;
+}
+
+#home-page-container .btn {
+    color: #FFF;
+}
+
+#home-page-container #stay-in-loop-right h3 {
+    font-size: 16px;
+}
+
+#home-page-container #stay-in-loop {
+    margin-bottom: 35px;
+}
+
+#home-page-container #stay-in-loop h3 {
+    margin-bottom: 10px;
+    background-image: URL("../img/content/home-page/fun-bg.png");
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: 95% 45%;
+}
+
+#home-page-container #stay-in-loop p {
+    margin: 0;
+    font-size: 14px;
+}
+
+#home-page-container #stay-in-loop input {
+    width: 65%;
+    height: 38px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+#home-page-container #stay-in-loop .btn {
+    margin-left: 10px;
+}
+
+#home-page-container #build-and-price {
+    background-image: URL("../img/content/home-page/build-and-price-bg.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    margin: 0;
+    margin-top: 15px;
+    border: 0;
+    padding: 5px;
+    padding-left: 10px;
+    padding-top: 7px;
+    text-shadow: 2px 2px 2px #000000;
+    text-align:left;
+    font-weight: 900;
+    width: 165px;
+    font-size: 12px;
+}
+
+#home-page-container #view-inventory {
+    background-image: URL("../img/content/home-page/view-inventory-bg.jpg");
+    background-repeat: repeat-x;
+    background-size: contain;
+    margin: 0;
+    margin-top: 15px;
+    border: 0;
+    padding: 5px;
+    padding-top: 7px;
+    padding-left: 10px;
+    text-shadow: 2px 2px 2px #000000;
+    text-align:left;
+    font-weight: 900;
+    width: 155px;
+    font-size: 12px;
+}
+
+/*FUN WORLD OF MINI*/
+
+#home-page-container #home-inter-title {
+    background-image: URL("../img/content/home-page/fun-bg.png");
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: 47.5% 15%;
+    position: relative;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 50px;
+}
+
+#home-page-container #fun-world-of-mini {
+    width: 100%;
+    margin: 0;
+}
+
+#home-page-container #fun-world-of-mini .btn {
+    width: 180px;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+#home-page-container .four-events {
+    width: 47.5%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+#home-page-container .four-events h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+#home-page-container #home-mini-invasion {
+    margin-right: 5%;
+}
+
+#home-page-container #why-mini {
+    margin-right: 5%;
+    clear: both;
+}
+
+#home-page-container #home-learn-more img {
+    width: auto;
+}
+
+#home-page-container .four-events img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

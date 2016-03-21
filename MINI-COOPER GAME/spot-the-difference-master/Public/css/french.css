@@ -1,0 +1,39 @@
+﻿/* ADD ALL FRENCH OVERRIDES HERER */
+
+
+#home-page-container h1 {
+	font-size : 25px;
+}
+
+#home-page-container #dag-right-column button {
+    height: auto;
+}
+
+#home-page-container #stay-in-loop {
+    margin-bottom: 50px;
+}
+
+#home-page-container #build-your-mini {
+    margin-bottom: 20px;
+}
+
+#home-page-container #french-button {
+    width: 100%;
+}
+
+#home-page-container .french-button img {
+    float: left;
+    width: 15%;
+    display: inline-block;
+}
+
+#home-page-container .french-text {
+    float: left;
+    width: 85%;
+    display: inline-block;
+}
+
+#home-page-container .btn {
+    white-space: normal !important;
+    height: auto !important;
+}
