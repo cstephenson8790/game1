@@ -56,7 +56,7 @@
 		#spot-the-difference .end-page .actions li { list-style-type: none; float: left; width: 40%; margin-right: 10%; margin-bottom: 20px; }
 		#spot-the-difference .end-page .actions li a{ width:100%; text-align: left;}
 
-#spot-the-difference .item .quit { position: absolute; right: 0; top: 0; }
+#spot-the-difference .item { position: relative; width: 100%; }
 
 #spot-the-difference .quiz-area { margin-top: 15%; }
 		#spot-the-difference .quiz-area h2 { margin-bottom: 40px; }
@@ -69,30 +69,30 @@
 /*Jonathan's Code*/
 #spot-the-difference .start-button{margin-right:10px;}
 #spot-the-difference { background-color: #000; }
-#spot-the-difference .carousel { width: 800px; height: 800px; margin: 0 auto; }
+#spot-the-difference .carousel { width: 100%; height: 480px; margin: 0 auto; }
 #spot-the-difference .carousel-inner { width: 100%; height: 100%; }
-#spot-the-difference .item { width: 100%; height: 100%; background-color: black; padding: 35px; padding-bottom: 45px; }
+#spot-the-difference .item { width: 100%; height: 100%; background-color: black; }
 
 #spot-the-difference .p1-footer { position: absolute; left: 40px; bottom: 60px; }
 
 #spot-the-difference .input-name { background-color: black; color: white; height: 40px; width: 400px; border-width: 3px; border-radius: 3px; }
 
-#spot-the-difference #ui-info { margin-top: -130px; position: relative; }
+#spot-the-difference #ui-info { position: relative; }
 
 #spot-the-difference .clock-numbers { height: 65px; }
 
-#spot-the-difference .modal { border: 3px solid white; overflow: none; overflow-y: hidden; display: none; border-radius: 10px; padding-right: 5%; padding-left: 5%; position: absolute; top: 20%; left: 15%; right: 15%; bottom: 55%; }
-		#spot-the-difference .modal.corner { top: 32px; right: 0; bottom: 70%; left: 40%; }
+#spot-the-difference .modal { border: 3px solid white; overflow: none; overflow-y: hidden; display: none; border-radius: 10px; padding-right: 5%; padding-left: 5%; position: absolute; top: 40%; left: 15%; right: 15%; bottom: 20%; }
+		#spot-the-difference .modal.corner { top: 32px; right: 15%; bottom: 50%; left: 15%; }
 		#spot-the-difference .modal p { min-height: 50px; }
 		#spot-the-difference .modal.page-intro { top: 5%; left: 5%; right: 5%; bottom: 5%; }
 				#spot-the-difference .modal.page-intro p { margin-left: 30px; }
 				#spot-the-difference .modal.page-intro h2, #spot-the-difference .modal.page-intro .btn { margin-left: 30px; margin-top: 50px; }
 				#spot-the-difference .modal.page-intro .close-button { position: absolute; right: 10px; top: 15px; width: 32px; }
-#spot-the-difference .levelintro-image {width: 100%; height: 660px;}
+#spot-the-difference .levelintro-image {width: 100%; height: 100%;}
 
 #spot-the-difference .spot {position:absolute; z-index:1;}
-#spot-the-difference .spot-11a {top:380px; left:62px; width:60px; height:70px;}
-#spot-the-difference .spot-11b {top:380px; left:432px; width:60px; height:70px;}
+#spot-the-difference .spot-11a {top:316.50px; left:75.50px; width:60px; height:70px;}
+#spot-the-difference .spot-11b {top:316px; left:432px; width:60px; height:70px;}
 #spot-the-difference .spot-12a {top:380px; left:166px; width:182px; height:95px;}
 #spot-the-difference .spot-12b {top:380px; left:536px; width:182px; height:95px;}
 #spot-the-difference .spot-13a {top:390px; left:355px; width:45px; height:70px;}
@@ -100,30 +100,3 @@
 #spot-the-difference .spot-14a {top:200px; left:230px; width:140px; height:130px;}
 #spot-the-difference .spot-14b {top:455px; left:230px; width:140px; height:130px;}
 
-#spot-the-difference .spot-21a {top:40px; left:155px; width:70px; height:70px;}
-#spot-the-difference .spot-21b {top:343px; left:155px; width:70px; height:70px;}
-#spot-the-difference .spot-22a {top:237px; left:60px; width:150px; height:75px;}
-#spot-the-difference .spot-22b {top:540px; left:60px; width:150px; height:75px;}
-#spot-the-difference .spot-23a {top:212px; left:215px; width:265px; height:125px;}
-#spot-the-difference .spot-23b {top:515px; left:215px; width:265px; height:125px;}
-#spot-the-difference .spot-24a {top:210px; left:490px; width:135px; height:90px;}
-#spot-the-difference .spot-24b {top:513px; left:490px; width:135px; height:90px; }
-#spot-the-difference .spot-25a {top:272px; left:630px; width:80px; height:70px; }
-#spot-the-difference .spot-25b {top:575px; left:630px; width:80px; height:70px;}
-
-#spot-the-difference .spot-26 {top:405px; left:335px; width:200px; height:170px;}
-
-#spot-the-difference .spot-31a {top:160px; left:65px; width:170px; height:90px;}
-#spot-the-difference .spot-31b {top:160px; left:435px; width:170px; height:90px;}
-#spot-the-difference .spot-32a {top:355px; left:70px; width:240px; height:120px;}
-#spot-the-difference .spot-32b {top:355px; left:440px; width:240px; height:120px;}
-#spot-the-difference .spot-33a {top:410px; left:310px; width:45px; height:65px;}
-#spot-the-difference .spot-33b {top:410px; left:680px; width:45px; height:65px;}
-#spot-the-difference .spot-34a {top:380px; left:338px; width:40px; height:40px;}
-#spot-the-difference .spot-34b {top:380px; left:708px; width:40px; height:40px;}
-#spot-the-difference .spot-35a {top:190px; left:660px; width:100px; height:85px;}
-#spot-the-difference .spot-35b {top:190px; left:280px; width:100px; height:85px;}
-
-#spot-the-difference .spot-36 {top:310px; left:290px; width:215px; height:100px;}
-#spot-the-difference .spot-37a {top:390px; left:35px; width:80px; height:120px;}
-#spot-the-difference .spot-37b {top:390px; left:685px; width:80px; height:120px;}
